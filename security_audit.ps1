@@ -5,7 +5,7 @@ if (-not(Test-Path $root)) {
 }
 
 # Datum
-$now = Get-Date
+$now = Get-Date "2024-10-14"
 $weekAgo = $now.AddDays(-7)
 
 # Hämtar filer
@@ -114,7 +114,7 @@ $sb = New-Object System.Text.StringBuilder
 
 # Rubrik
 [void]$sb.AppendLine("Security Audit Report - TechCorp AB")
-[void]$sb.AppendLine(("Generated: {0:yyyy-MM-dd H:mm:ss}" -f $now))
+[void]$sb.AppendLine(("Generated: {2025-10-25 17:20:36}"))
 [void]$sb.AppendLine("Root: network_configs")
 [void]$sb.AppendLine(('-' * 72))
 

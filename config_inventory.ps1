@@ -27,5 +27,5 @@ $inventory |
 Sort-Object RelativPath, Name |
 Export-Csv -Path $csvPath -NoTypeInformation -Encoding utf8
 
-Write-Host " CSV exporterad: $csvPath" -ForegroundColor Green
+Write-Host "CSV exporterad: $csvPath" -ForegroundColor Green
 Write-Host "Antal Konfigurationsfiler: $($inventory.Count)"
